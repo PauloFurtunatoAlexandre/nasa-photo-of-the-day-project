@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,70 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* My Styles */
+
+section.title--section {
+  width: 100%;
+  margin: 24px;
+}
+
+.main--container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.column--half {
+  width: 45%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .column--half {
+    width: 90%;
+    padding: 20px;
+  }
+}
+
+p {
+  text-align: left;
+}
+
+h2.header--title {
+  text-align: left;
+  margin: 25px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #39719E;
+  color: #fff;
+}
+
+p.nasa--subtitle {
+  margin: 35px;
+}
+
+.nasa--footer {
+  background-color: #39719E;
+  padding: 40px;
+  color: #fff;
+}
+
+h2.nasa--title {
+  text-align: center;
+}
+
+span.optional-info {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.loading {
+  text-align: center;
 }
