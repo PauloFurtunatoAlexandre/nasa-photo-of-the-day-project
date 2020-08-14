@@ -21,7 +21,7 @@ import axios from "axios";
 // console.log(day);
 
 var date = new Date(Date.now());
-var dateString = new Date(date.getTime() - (date.getTimezoneOffset() * 60000 ))
+var dateString = new Date(date.getTime() - (date.getTimezoneOffset() * 400000 ))
                     .toISOString()
                     .split("T")[0];
 
